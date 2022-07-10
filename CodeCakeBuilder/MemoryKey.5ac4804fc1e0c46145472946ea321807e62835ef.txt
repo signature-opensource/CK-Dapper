@@ -1,0 +1,1 @@
+C:/Dev/CK/CK-Core-Projects/CK-Core/Tests/CK.Core.Tests/bin/Release/net6.0/CK.Core.Tests.dll

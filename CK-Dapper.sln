@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A34907DF-958A-4E4C-8491-84CF303FD13E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		appveyor.yml = appveyor.yml
+		Directory.Build.props = Directory.Build.props
+		License.txt = License.txt
+		nuget.config = nuget.config
+		Readme.md = Readme.md
+		RepositoryInfo.xml = RepositoryInfo.xml
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CK.Dapper", "CK.Dapper\CK.Dapper.csproj", "{E1EAE348-340D-4452-9E37-4C5BA706BA0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CK.Dapper.SqlBuilder", "CK.Dapper.SqlBuilder\CK.Dapper.SqlBuilder.csproj", "{43056F88-FE1F-4359-9421-FB28737BA421}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCakeBuilder", "CodeCakeBuilder\CodeCakeBuilder.csproj", "{32DB6294-32B7-49A4-9228-3D7C84D93811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1EAE348-340D-4452-9E37-4C5BA706BA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EAE348-340D-4452-9E37-4C5BA706BA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EAE348-340D-4452-9E37-4C5BA706BA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EAE348-340D-4452-9E37-4C5BA706BA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43056F88-FE1F-4359-9421-FB28737BA421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43056F88-FE1F-4359-9421-FB28737BA421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43056F88-FE1F-4359-9421-FB28737BA421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43056F88-FE1F-4359-9421-FB28737BA421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DB6294-32B7-49A4-9228-3D7C84D93811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DB6294-32B7-49A4-9228-3D7C84D93811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DB6294-32B7-49A4-9228-3D7C84D93811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DB6294-32B7-49A4-9228-3D7C84D93811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928A4226-96F3-409A-8A83-9E7444488710}
+	EndGlobalSection
+EndGlobal
