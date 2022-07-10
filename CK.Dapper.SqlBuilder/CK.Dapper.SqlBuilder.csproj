@@ -1,4 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\CK.Dapper\CK.Dapper.csproj" />
+  </ItemGroup>
   <PropertyGroup>
     <AssemblyName>Dapper.SqlBuilder</AssemblyName>
     <PackageTags>orm;sql;micro-orm;query;sql-builder</PackageTags>
@@ -9,8 +12,4 @@
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CK.Dapper\CK.Dapper.csproj" />
-  </ItemGroup>
 </Project>
