@@ -10,5 +10,9 @@
     <TargetFrameworks>net6.0</TargetFrameworks>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CK.Dapper\CK.Dapper.csproj" />
+  </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@
     <Description>Dapper with Type mapping support (see https://github.com/DapperLib/Dapper/pull/1802). NET6 only and strongly named.</Description>
     <Authors>Sam Saffron;Marc Gravell;Nick Craver</Authors>
     <TargetFrameworks>net6.0</TargetFrameworks>
-    
+    <Nullable>enable</Nullable>
     
   </PropertyGroup>
   <ItemGroup>
